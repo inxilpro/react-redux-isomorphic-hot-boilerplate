@@ -1,0 +1,56 @@
+{
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "destructuring": true,
+    "forOf": true,
+    "generators": true,
+    "modules": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "restParams": true,
+    "spread": true,
+    "superInFunctions": true,
+    "templateStrings": true,
+    "globalReturn": true,
+    "jsx": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "ON_CLIENT": false,
+    "ON_SERVER": false
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "quotes": [1, "single"],
+    "semi": [2, "always"],
+    "no-trailing-spaces": [2, {
+        "skipBlankLines": true
+    }],
+    "indent": [2, "tab"],
+    "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
+    "no-underscore-dangle": 0,
+    "new-cap": [1, {
+      "capIsNewExceptions": [
+        "Router"
+      ]
+    }],
+    "no-unused-vars": [2, {
+      "vars": "all",
+      "args": "none"
+    }],
+    "yoda": [2, "always", {
+      "onlyEquality": true
+    }]
+  }
+}
