@@ -10,6 +10,9 @@
     "production": "NODE_PATH=. PORT=3000 NODE_ENV=production node server/server.js",
     "lint": "eslint src"
   },
+  "engines": {
+    "node" : ">=4.0.0"
+  },
   "devDependencies": {
     "babel-core": "^5.8.25",
     "babel-eslint": "^4.1.3",

@@ -1,4 +1,7 @@
-Another React boilerplate, featuring React, Redux and Webpack—isomorphic and hot loading in development
+Another React boilerplate, featuring React, Redux and Webpack—isomorphic and hot loading in development.
+More details coming soon!
+
+Node 4.0+ required.
 
 ![Demo](demo.gif)
 
